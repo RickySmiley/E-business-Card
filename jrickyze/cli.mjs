@@ -18,8 +18,8 @@ const intro = chalk.bold("Jose Zermeno |" + chalk.hex("#ff0eb2") (" Software Dev
 
 const links = [
 	{ name: chalk.hex("#ffffff").bgHex("#f30909")(" NPM "), urls:["        https://www.npmjs.com/~zermenor29"] },
-	{ name: chalk.hex("#0e0606").bgHex("#ffffff")(" GitHub "), urls:  ["  https://www.linkedin.com/in/jose-zermeno-778965b9/"]},
-	{ name: chalk.hex("#fff").bgHex("#1829e5")(" LinkedIn "), urls: ["    https://github.com/RickySmiley"]},
+	{ name: chalk.hex("#0e0606").bgHex("#ffffff")(" GitHub "), urls: ["    https://github.com/RickySmiley"]}, 
+	{ name: chalk.hex("#fff").bgHex("#1829e5")(" LinkedIn "), urls: ["  https://www.linkedin.com/in/jose-zermeno-778965b9/"]},
 ];
 
 const linkList = links.map((link) => `${link.name} ${link.urls.join('\n')}`).join("\n");
